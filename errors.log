@@ -1,208 +1,209 @@
-2025/03/10 09:22:58pm An error in the file C:\xampp\htdocs\2333960\buyingConfirmation.php at line 4 : 2 - Undefined variable $price 
-2025/03/10 09:22:58pm An error in the file C:\xampp\htdocs\2333960\buyingConfirmation.php at line 4 : 2 - Undefined variable $quantity 
-2025/03/11 05:45:42am An exception occurred in the file C:\xampp\htdocs\2333960\buying.php at line 230 : 0 - fwrite() expects at most 3 arguments, 10 given
-2025/03/11 05:53:08am An exception occurred in the file C:\xampp\htdocs\2333960\buying.php at line 230 : 0 - fwrite(): Argument #3 ($length) must be of type ?int, string given
-2025/03/11 06:09:46am An error in the file C:\xampp\htdocs\2333960\buying.php at line 229 : 2 - fopen(ordersArray/orders.txt): Failed to open stream: No such file or directory 
-2025/03/11 06:20:55am An error in the file C:\xampp\htdocs\2333960\buying.php at line 220 : 2 - Undefined variable $subtotal 
-2025/03/11 06:21:55am An error in the file C:\xampp\htdocs\2333960\buying.php at line 225 : 2 - Undefined variable $subtotal 
-2025/03/11 06:28:26am An error in the file C:\xampp\htdocs\2333960\buying.php at line 230 : 2 - Undefined variable $subtotal 
-2025/03/11 06:28:26am An error in the file C:\xampp\htdocs\2333960\buying.php at line 235 : 2 - Undefined variable $subtotal 
-2025/03/11 06:28:26am An error in the file C:\xampp\htdocs\2333960\buying.php at line 235 : 2 - Undefined variable $taxAmount 
-2025/03/11 06:28:26am An error in the file C:\xampp\htdocs\2333960\buying.php at line 235 : 2 - Undefined variable $grandTotal 
-2025/03/11 06:28:53am An error in the file C:\xampp\htdocs\2333960\buying.php at line 230 : 2 - Undefined variable $subtotal 
-2025/03/11 06:28:53am An error in the file C:\xampp\htdocs\2333960\buying.php at line 230 : 2 - Undefined variable $taxAmount 
-2025/03/11 06:28:53am An error in the file C:\xampp\htdocs\2333960\buying.php at line 230 : 2 - Undefined variable $grandTotal 
-2025/03/11 06:42:22am An exception occurred in the file C:\xampp\htdocs\2333960\buying.php at line 220 : 0 - Undefined constant "mb"
-2025/03/11 06:51:24am An exception occurred in the file C:\xampp\htdocs\2333960\buying.php at line 237 : 0 - Unsupported operand types: string * string
-2025/03/11 06:55:27am An error in the file C:\xampp\htdocs\2333960\buying.php at line 249 : 2 - Undefined variable $totalMessage 
-2025/03/11 07:06:41am An error in the file C:\xampp\htdocs\2333960\buying.php at line 49 : 2 - Undefined array key "subtotal" 
-2025/03/11 07:06:41am An error in the file C:\xampp\htdocs\2333960\buying.php at line 49 : 8192 - trim(): Passing null to parameter #1 ($string) of type string is deprecated 
-2025/03/11 07:06:41am An error in the file C:\xampp\htdocs\2333960\buying.php at line 224 : 2 - Undefined array key "subtotal" 
-2025/03/11 07:06:41am An error in the file C:\xampp\htdocs\2333960\buying.php at line 224 : 8192 - trim(): Passing null to parameter #1 ($string) of type string is deprecated 
-2025/03/11 07:07:11am An error in the file C:\xampp\htdocs\2333960\buying.php at line 49 : 2 - Undefined array key "subtotal" 
-2025/03/11 07:07:11am An error in the file C:\xampp\htdocs\2333960\buying.php at line 49 : 8192 - trim(): Passing null to parameter #1 ($string) of type string is deprecated 
-2025/03/11 07:53:21am An error in the file C:\xampp\htdocs\2333960\orders.php at line 8 : 2 - fopen(customers.txt): Failed to open stream: No such file or directory 
-2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\2333960\orders.php at line 35 : 2 - Undefined array key 1 
-2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\2333960\orders.php at line 38 : 2 - Undefined array key 2 
-2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\2333960\orders.php at line 35 : 2 - Undefined array key 1 
-2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\2333960\orders.php at line 38 : 2 - Undefined array key 2 
-2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\2333960\orders.php at line 35 : 2 - Undefined array key 1 
-2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\2333960\orders.php at line 38 : 2 - Undefined array key 2 
-2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\2333960\orders.php at line 35 : 2 - Undefined array key 1 
-2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\2333960\orders.php at line 38 : 2 - Undefined array key 2 
-2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\2333960\orders.php at line 35 : 2 - Undefined array key 1 
-2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\2333960\orders.php at line 38 : 2 - Undefined array key 2 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 40 : 2 - Undefined array key 3 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 42 : 2 - Undefined array key 4 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 44 : 2 - Undefined array key 5 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 46 : 2 - Undefined array key 6 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 40 : 2 - Undefined array key 3 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 42 : 2 - Undefined array key 4 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 44 : 2 - Undefined array key 5 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 46 : 2 - Undefined array key 6 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 40 : 2 - Undefined array key 3 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 42 : 2 - Undefined array key 4 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 44 : 2 - Undefined array key 5 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 46 : 2 - Undefined array key 6 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 35 : 2 - Undefined array key 1 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 38 : 2 - Undefined array key 2 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 40 : 2 - Undefined array key 3 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 42 : 2 - Undefined array key 4 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 44 : 2 - Undefined array key 5 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 46 : 2 - Undefined array key 6 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 35 : 2 - Undefined array key 1 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 38 : 2 - Undefined array key 2 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 40 : 2 - Undefined array key 3 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 42 : 2 - Undefined array key 4 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 44 : 2 - Undefined array key 5 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 46 : 2 - Undefined array key 6 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 35 : 2 - Undefined array key 1 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 38 : 2 - Undefined array key 2 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 40 : 2 - Undefined array key 3 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 42 : 2 - Undefined array key 4 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 44 : 2 - Undefined array key 5 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 46 : 2 - Undefined array key 6 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 35 : 2 - Undefined array key 1 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 38 : 2 - Undefined array key 2 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 40 : 2 - Undefined array key 3 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 42 : 2 - Undefined array key 4 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 44 : 2 - Undefined array key 5 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 46 : 2 - Undefined array key 6 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 35 : 2 - Undefined array key 1 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 38 : 2 - Undefined array key 2 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 40 : 2 - Undefined array key 3 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 42 : 2 - Undefined array key 4 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 44 : 2 - Undefined array key 5 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 46 : 2 - Undefined array key 6 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 48 : 2 - Undefined array key 7 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 50 : 2 - Undefined array key 8 
-2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\2333960\orders.php at line 52 : 2 - Undefined array key 9 
-2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\2333960\orders.php at line 35 : 2 - Undefined array key 1 
-2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\2333960\orders.php at line 38 : 2 - Undefined array key 2 
-2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\2333960\orders.php at line 35 : 2 - Undefined array key 1 
-2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\2333960\orders.php at line 38 : 2 - Undefined array key 2 
-2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\2333960\orders.php at line 35 : 2 - Undefined array key 1 
-2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\2333960\orders.php at line 38 : 2 - Undefined array key 2 
-2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\2333960\orders.php at line 35 : 2 - Undefined array key 1 
-2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\2333960\orders.php at line 38 : 2 - Undefined array key 2 
-2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\2333960\orders.php at line 35 : 2 - Undefined array key 1 
-2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\2333960\orders.php at line 38 : 2 - Undefined array key 2 
-2025/03/11 07:59:18am An error in the file C:\xampp\htdocs\2333960\orders.php at line 33 : 2 - Undefined array key 1 
-2025/03/11 07:59:18am An error in the file C:\xampp\htdocs\2333960\orders.php at line 33 : 2 - Undefined array key 1 
-2025/03/11 07:59:18am An error in the file C:\xampp\htdocs\2333960\orders.php at line 33 : 2 - Undefined array key 1 
-2025/03/11 07:59:18am An error in the file C:\xampp\htdocs\2333960\orders.php at line 33 : 2 - Undefined array key 1 
-2025/03/11 07:59:18am An error in the file C:\xampp\htdocs\2333960\orders.php at line 33 : 2 - Undefined array key 1 
-2025/03/11 11:01:06am An exception occurred in the file C:\xampp\htdocs\2333960\index.php at line 22 : 0 - shuffle(): Argument #1 ($array) must be of type array, null given
-2025/03/11 11:09:31am An error in the file C:\xampp\htdocs\2333960\index.php at line 20 : 2 - Array to string conversion 
-2025/03/11 11:09:31am An exception occurred in the file C:\xampp\htdocs\2333960\index.php at line 22 : 0 - shuffle(): Argument #1 ($array) must be of type array, string given
-2025/03/11 12:00:52pm An error in the file C:\xampp\htdocs\2333960\buyingConfirmation.php at line 8 : 2 - Undefined variable $totalMessage 
-2025/03/11 12:01:20pm An exception occurred in the file C:\xampp\htdocs\2333960\buyingConfirmation.php at line 8 : 0 - Undefined constant "buying"
-2025/03/11 12:01:55pm An exception occurred in the file C:\xampp\htdocs\2333960\buyingConfirmation.php at line 8 : 0 - Undefined constant "buying"
-2025/03/11 01:41:08pm An error in the file C:\xampp\htdocs\2333960\orders.php at line 75 : 2 - Undefined variable $taxAmount 
-2025/03/11 01:55:59pm An exception occurred in the file C:\xampp\htdocs\2333960\index.php at line 17 : 0 - Call to undefined function displayWelcomeMessage()
-2025/03/11 01:56:24pm An exception occurred in the file C:\xampp\htdocs\2333960\index.php at line 17 : 0 - Call to undefined function displayWelcomeMessage()
-2025/03/12 12:42:10am An exception occurred in the file C:\xampp\htdocs\2333960\PHPFunctions\myFunctions.php at line 126 : 0 - Undefined constant "PICTURES_FOLDER"
-2025/03/12 12:42:18am An exception occurred in the file C:\xampp\htdocs\2333960\PHPFunctions\myFunctions.php at line 126 : 0 - Undefined constant "PICTURES_FOLDER"
-2025/03/12 12:50:05am An exception occurred in the file C:\xampp\htdocs\2333960\PHPFunctions\myFunctions.php at line 127 : 0 - Undefined constant "PICTURES_FOLDER"
-2025/03/12 12:50:35am An exception occurred in the file C:\xampp\htdocs\2333960\PHPFunctions\myFunctions.php at line 127 : 0 - Undefined constant "PICTURES_FOLDER"
+2025/03/10 09:22:58pm An error in the file C:\xampp\htdocs\stnb\buyingConfirmation.php at line 4 : 2 - Undefined variable $price 
+2025/03/10 09:22:58pm An error in the file C:\xampp\htdocs\stnb\buyingConfirmation.php at line 4 : 2 - Undefined variable $quantity 
+2025/03/11 05:45:42am An exception occurred in the file C:\xampp\htdocs\stnb\buying.php at line 230 : 0 - fwrite() expects at most 3 arguments, 10 given
+2025/03/11 05:53:08am An exception occurred in the file C:\xampp\htdocs\stnb\buying.php at line 230 : 0 - fwrite(): Argument #3 ($length) must be of type ?int, string given
+2025/03/11 06:09:46am An error in the file C:\xampp\htdocs\stnb\buying.php at line 229 : 2 - fopen(ordersArray/orders.txt): Failed to open stream: No such file or directory 
+2025/03/11 06:20:55am An error in the file C:\xampp\htdocs\stnb\buying.php at line 220 : 2 - Undefined variable $subtotal 
+2025/03/11 06:21:55am An error in the file C:\xampp\htdocs\stnb\buying.php at line 225 : 2 - Undefined variable $subtotal 
+2025/03/11 06:28:26am An error in the file C:\xampp\htdocs\stnb\buying.php at line 230 : 2 - Undefined variable $subtotal 
+2025/03/11 06:28:26am An error in the file C:\xampp\htdocs\stnb\buying.php at line 235 : 2 - Undefined variable $subtotal 
+2025/03/11 06:28:26am An error in the file C:\xampp\htdocs\stnb\buying.php at line 235 : 2 - Undefined variable $taxAmount 
+2025/03/11 06:28:26am An error in the file C:\xampp\htdocs\stnb\buying.php at line 235 : 2 - Undefined variable $grandTotal 
+2025/03/11 06:28:53am An error in the file C:\xampp\htdocs\stnb\buying.php at line 230 : 2 - Undefined variable $subtotal 
+2025/03/11 06:28:53am An error in the file C:\xampp\htdocs\stnb\buying.php at line 230 : 2 - Undefined variable $taxAmount 
+2025/03/11 06:28:53am An error in the file C:\xampp\htdocs\stnb\buying.php at line 230 : 2 - Undefined variable $grandTotal 
+2025/03/11 06:42:22am An exception occurred in the file C:\xampp\htdocs\stnb\buying.php at line 220 : 0 - Undefined constant "mb"
+2025/03/11 06:51:24am An exception occurred in the file C:\xampp\htdocs\stnb\buying.php at line 237 : 0 - Unsupported operand types: string * string
+2025/03/11 06:55:27am An error in the file C:\xampp\htdocs\stnb\buying.php at line 249 : 2 - Undefined variable $totalMessage 
+2025/03/11 07:06:41am An error in the file C:\xampp\htdocs\stnb\buying.php at line 49 : 2 - Undefined array key "subtotal" 
+2025/03/11 07:06:41am An error in the file C:\xampp\htdocs\stnb\buying.php at line 49 : 8192 - trim(): Passing null to parameter #1 ($string) of type string is deprecated 
+2025/03/11 07:06:41am An error in the file C:\xampp\htdocs\stnb\buying.php at line 224 : 2 - Undefined array key "subtotal" 
+2025/03/11 07:06:41am An error in the file C:\xampp\htdocs\stnb\buying.php at line 224 : 8192 - trim(): Passing null to parameter #1 ($string) of type string is deprecated 
+2025/03/11 07:07:11am An error in the file C:\xampp\htdocs\stnb\buying.php at line 49 : 2 - Undefined array key "subtotal" 
+2025/03/11 07:07:11am An error in the file C:\xampp\htdocs\stnb\buying.php at line 49 : 8192 - trim(): Passing null to parameter #1 ($string) of type string is deprecated 
+2025/03/11 07:53:21am An error in the file C:\xampp\htdocs\stnb\orders.php at line 8 : 2 - fopen(customers.txt): Failed to open stream: No such file or directory 
+2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\stnb\orders.php at line 35 : 2 - Undefined array key 1 
+2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\stnb\orders.php at line 38 : 2 - Undefined array key 2 
+2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\stnb\orders.php at line 35 : 2 - Undefined array key 1 
+2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\stnb\orders.php at line 38 : 2 - Undefined array key 2 
+2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\stnb\orders.php at line 35 : 2 - Undefined array key 1 
+2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\stnb\orders.php at line 38 : 2 - Undefined array key 2 
+2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\stnb\orders.php at line 35 : 2 - Undefined array key 1 
+2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\stnb\orders.php at line 38 : 2 - Undefined array key 2 
+2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\stnb\orders.php at line 35 : 2 - Undefined array key 1 
+2025/03/11 07:54:49am An error in the file C:\xampp\htdocs\stnb\orders.php at line 38 : 2 - Undefined array key 2 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 40 : 2 - Undefined array key 3 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 42 : 2 - Undefined array key 4 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 44 : 2 - Undefined array key 5 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 46 : 2 - Undefined array key 6 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 40 : 2 - Undefined array key 3 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 42 : 2 - Undefined array key 4 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 44 : 2 - Undefined array key 5 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 46 : 2 - Undefined array key 6 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 40 : 2 - Undefined array key 3 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 42 : 2 - Undefined array key 4 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 44 : 2 - Undefined array key 5 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 46 : 2 - Undefined array key 6 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 35 : 2 - Undefined array key 1 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 38 : 2 - Undefined array key 2 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 40 : 2 - Undefined array key 3 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 42 : 2 - Undefined array key 4 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 44 : 2 - Undefined array key 5 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 46 : 2 - Undefined array key 6 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 35 : 2 - Undefined array key 1 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 38 : 2 - Undefined array key 2 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 40 : 2 - Undefined array key 3 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 42 : 2 - Undefined array key 4 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 44 : 2 - Undefined array key 5 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 46 : 2 - Undefined array key 6 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 35 : 2 - Undefined array key 1 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 38 : 2 - Undefined array key 2 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 40 : 2 - Undefined array key 3 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 42 : 2 - Undefined array key 4 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 44 : 2 - Undefined array key 5 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 46 : 2 - Undefined array key 6 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 35 : 2 - Undefined array key 1 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 38 : 2 - Undefined array key 2 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 40 : 2 - Undefined array key 3 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 42 : 2 - Undefined array key 4 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 44 : 2 - Undefined array key 5 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 46 : 2 - Undefined array key 6 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 35 : 2 - Undefined array key 1 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 38 : 2 - Undefined array key 2 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 40 : 2 - Undefined array key 3 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 42 : 2 - Undefined array key 4 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 44 : 2 - Undefined array key 5 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 46 : 2 - Undefined array key 6 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 48 : 2 - Undefined array key 7 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 50 : 2 - Undefined array key 8 
+2025/03/11 07:57:28am An error in the file C:\xampp\htdocs\stnb\orders.php at line 52 : 2 - Undefined array key 9 
+2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\stnb\orders.php at line 35 : 2 - Undefined array key 1 
+2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\stnb\orders.php at line 38 : 2 - Undefined array key 2 
+2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\stnb\orders.php at line 35 : 2 - Undefined array key 1 
+2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\stnb\orders.php at line 38 : 2 - Undefined array key 2 
+2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\stnb\orders.php at line 35 : 2 - Undefined array key 1 
+2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\stnb\orders.php at line 38 : 2 - Undefined array key 2 
+2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\stnb\orders.php at line 35 : 2 - Undefined array key 1 
+2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\stnb\orders.php at line 38 : 2 - Undefined array key 2 
+2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\stnb\orders.php at line 35 : 2 - Undefined array key 1 
+2025/03/11 07:58:32am An error in the file C:\xampp\htdocs\stnb\orders.php at line 38 : 2 - Undefined array key 2 
+2025/03/11 07:59:18am An error in the file C:\xampp\htdocs\stnb\orders.php at line 33 : 2 - Undefined array key 1 
+2025/03/11 07:59:18am An error in the file C:\xampp\htdocs\stnb\orders.php at line 33 : 2 - Undefined array key 1 
+2025/03/11 07:59:18am An error in the file C:\xampp\htdocs\stnb\orders.php at line 33 : 2 - Undefined array key 1 
+2025/03/11 07:59:18am An error in the file C:\xampp\htdocs\stnb\orders.php at line 33 : 2 - Undefined array key 1 
+2025/03/11 07:59:18am An error in the file C:\xampp\htdocs\stnb\orders.php at line 33 : 2 - Undefined array key 1 
+2025/03/11 11:01:06am An exception occurred in the file C:\xampp\htdocs\stnb\index.php at line 22 : 0 - shuffle(): Argument #1 ($array) must be of type array, null given
+2025/03/11 11:09:31am An error in the file C:\xampp\htdocs\stnb\index.php at line 20 : 2 - Array to string conversion 
+2025/03/11 11:09:31am An exception occurred in the file C:\xampp\htdocs\stnb\index.php at line 22 : 0 - shuffle(): Argument #1 ($array) must be of type array, string given
+2025/03/11 12:00:52pm An error in the file C:\xampp\htdocs\stnb\buyingConfirmation.php at line 8 : 2 - Undefined variable $totalMessage 
+2025/03/11 12:01:20pm An exception occurred in the file C:\xampp\htdocs\stnb\buyingConfirmation.php at line 8 : 0 - Undefined constant "buying"
+2025/03/11 12:01:55pm An exception occurred in the file C:\xampp\htdocs\stnb\buyingConfirmation.php at line 8 : 0 - Undefined constant "buying"
+2025/03/11 01:41:08pm An error in the file C:\xampp\htdocs\stnb\orders.php at line 75 : 2 - Undefined variable $taxAmount 
+2025/03/11 01:55:59pm An exception occurred in the file C:\xampp\htdocs\stnb\index.php at line 17 : 0 - Call to undefined function displayWelcomeMessage()
+2025/03/11 01:56:24pm An exception occurred in the file C:\xampp\htdocs\stnb\index.php at line 17 : 0 - Call to undefined function displayWelcomeMessage()
+2025/03/12 12:42:10am An exception occurred in the file C:\xampp\htdocs\stnb\PHPFunctions\myFunctions.php at line 126 : 0 - Undefined constant "PICTURES_FOLDER"
+2025/03/12 12:42:18am An exception occurred in the file C:\xampp\htdocs\stnb\PHPFunctions\myFunctions.php at line 126 : 0 - Undefined constant "PICTURES_FOLDER"
+2025/03/12 12:50:05am An exception occurred in the file C:\xampp\htdocs\stnb\PHPFunctions\myFunctions.php at line 127 : 0 - Undefined constant "PICTURES_FOLDER"
+2025/03/12 12:50:35am An exception occurred in the file C:\xampp\htdocs\stnb\PHPFunctions\myFunctions.php at line 127 : 0 - Undefined constant "PICTURES_FOLDER"
+
