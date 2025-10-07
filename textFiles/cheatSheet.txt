@@ -1,0 +1,380 @@
+#Revision history:
+#
+#Noah Dalbah    (2333960)   2025/03/10  Created the project, the pictures folder, the CSS folder and the PHPFunctions folder. Created the index.php, orders.php, buying.php and buyingConfirmation.php pages. 80% of the way done with index.php requirements (shuffle pictures, redirect to website on click, one picture different, page header and footer, display logo, welcome message). 70% done with buying.php requirements (display form, validate inputs, retain data, display error messages, submit form and redirect to confirmation page).
+#
+#Noah Dalbah    (2333960)   2025/03/10  Created a debugging function to show detailed and concise errors and exceptions and add them to an error log file
+#	
+#Noah Dalbah    (2333960)   2025/03/11  Added headers for UTF-8 to ensure proper display of French characters. Created a folder to store text files (cheat sheet, orders.txt). Written array into text file. Finished buying page functionality. Read array from text file and displayed information in a table in the orders page. Added "action=print" to orders page.	
+#
+#Noah Dalbah 	(2333960)   2025/03/11 Fixed the CSS in all the pages, added a link to view the cheat sheet, fixed company description in the index page, and fixed the welcome message and the confirmation message in the buying page. Deleted the buyingConfirmation page.	
+#
+#Noah Dalbah 	(2333960)   2025/03/11 Added the "action=color" functionality to the orders.php page. Added some comments. Changed the name of displayWelcomeMessage() function to displayCompanyDescription() to enhance clarity, not to be confused with the form in buying.php welcome message.	
+#
+#Noah Dalbah 	(2333960)   2025/03/11 Added comments to all of the files for ease of understanding the code. Filled the cheat sheet. Fixed the constants in myFunctions.php and index.php and fixed some styles in the CSS file. Finalized the project and prepared it for submission.	
+#
+#Noah Dalbah 	(2333960)   2025/03/11 Set the debugging constant for the function in myFunctions.php to false (done testing).		
+
+
+
+
+
+1. constants always on top of the page
+
+2. for easier debugging (view detailed errors on screen), place at the top of myFunctions.php page:
+
+    //set to false after testing
+    const DEBUGGING = false;
+
+    function manageError($errorNumber, $errorMessage, $errorFile, $errorLine)
+    {
+        //never show confidential information to the end-users
+        $genericError = "An error occurred on my website";
+        $detailedError = date("Y/m/d h:i:sa") . " An error in the file $errorFile at line $errorLine : $errorNumber - $errorMessage \r\n";
+
+        if(DEBUGGING)
+        {
+            //we're debugging, show detailed information on the screen
+            echo $detailedError;
+        }
+        else
+        {
+            //we're not debugging, show generic information on the screen
+            echo $genericError;
+        }
+
+        //use a constant for the error filename
+        file_put_contents("errors.log", $detailedError, FILE_APPEND);
+
+        //send all the network headers (BEFORE <DOCTYPE...>)
+        //UTF-8
+        header('Content-Type: text/html; charset=UTF-8');
+
+        //prevent page caching
+        header("Expires: Thu, 01 Dec 1994 16:00:00 GMT");
+        header("Cache-Control: no-cache");
+        header("Pragma: no-cache");
+    }
+
+    function manageException($error)
+    {
+        //never show confidentail information to the end-users
+        $genericException = "An error occurred on my website";
+        $detailedException = date("Y/m/d h:i:sa") . " An exception occurred in the file " . $error->getFile() . " at line " . $error->getLine() . " : " . $error->getCode() . " - " . $error->getMessage() . "\r\n";
+
+            if(DEBUGGING)
+        {
+            echo $detailedException;
+        }
+        else
+        {
+            echo $genericException;
+        }
+
+
+        file_put_contents("errors.log", $detailedException, FILE_APPEND);
+    }
+
+    //enable error and exception detection
+    set_error_handler("manageError");
+    set_exception_handler("manageException");
+
+3. pageHeader() function, send headers, <DOCTYPE...>, link to css, title, body class if available, 
+    any functions displaying things that need to be at the top of every page (logo, navbar, etc):
+
+    function pageHeader($title)
+        {   header('Content-Type: text/html; charset=UTF-8');
+            header("Expires: Thu, 01 Dec 1994 16:00:00 GMT");
+            header("Cache-Control: no-cache");
+            header("Pragma: no-cache");
+            ?>
+
+            <!DOCTYPE html>
+            <html>
+                <head>
+                    <meta charset="UTF-8">
+                    <link rel='stylesheet' type='text/css' href='CSS/styles.css'>
+                    <title><?php echo $title; ?></title>
+                </head>
+                <body class="<?php
+                //contents of the if statement only execute in the orders.php page
+                if($title == "Orders Page") 
+                {   //if user specifies an action in the URL
+                    if(isset($_GET["action"]))
+                    {   //if the action is "print"
+                        if($_GET["action"] == 'print'){
+                            //set the "print" class to the body
+                            echo htmlspecialchars($_GET["action"]);
+                        }
+                        else
+                        {   //set "gradient" class
+                            echo "gradient";
+                        }
+                    }
+                    else
+                    {
+                        echo "gradient";
+                    }
+                }
+                else
+                {
+                    echo "gradient";
+                }
+
+                ?>">
+            <?php
+
+            //display company logo on all pages
+            companyLogo();?><br><?php
+
+            //call the navigation menu in all the pages by calling the page header function
+            navigationMenu();
+        }
+
+4. pageFooter() function, same as pageHeader() but for whatever needs to be at the bottom of every page, don't forget to close tags
+    + displaying copyright small logo and date dynamically:
+
+    //function that displays the copyright message, name, student id, and the year dynamically at the footer of all the pages
+    function pageFooter()
+    {   
+        ?> <div class="copyright"><br> Copyright &copy; Noah Dalbah (2333960) <?php echo date("Y");?> </div>
+            </body>
+        </html>   
+        <?php
+
+    }
+    
+5. using a function to display an image:
+
+    //function that displays the company logo across all pages
+    function companyLogo()
+    {
+        ?>
+        <img src="image.jpg">
+        <?php
+    }
+
+6. build and display navbar using function:
+    //function to display the navigation menu
+    function navigationMenu()
+    {
+        //use styles to avoid blue underlined menus
+        echo "<div class='navdiv'>" 
+            . "<ul class='navbar'>"
+            . "<li><a href = 'index.php'>Home Page</a></li>"
+            . "<li><a href = 'page.php'>Page</a></li>"
+            . "<li><a href = 'page2.php'>Page2</a></li>"
+            . "</ul>"
+        . "</div>";
+    }
+
+7. calculating tax function:
+    function calculateTax($subtotal, $taxRate, &$grandTotal) //the "&" allows you to pass a parameter by reference
+    {
+        $taxAmount = round($subtotal * $taxRate, 2);
+        $grandTotal = $subtotal + $taxAmount;
+        return $taxAmount;
+    }
+
+8. check if submit button has been clicked and execute based on whether or not it was clicked:
+    if(isset($_POST["connect"])) {}
+    else{}
+
+9. read variables while protecting against injections (html, js)
+    $productCode = htmlspecialchars(trim($_POST["productcode"]));
+
+10. checking if a certain sequence of letters can be found in a string 
+    (use "===" in order to get correct readings when the searched string is at the beginning):
+
+    if(mb_stripos($productCode, PRODUCT_CODE_REQ) === false)
+    {
+        $errorProductCode = "The product code must include the letters 'PRD' (regardless of case)";
+    }
+
+11. checking for string length using mb to get accurate results in case of French-Canadian characters use:
+    if(mb_strlen($productCode) > PRODUCT_CODE_MAX_LENGTH)
+    {
+        $errorProductCode = "The product code cannot contain more than " . PRODUCT_CODE_MAX_LENGTH . " characters.";
+    }
+
+12. display a message upon correctly entering the certain values required 
+    (depending on placement within code, can be executed even without all the fields being filled):
+
+    if($errorFirstName == "" && $errorLastName == "")
+    {
+        //both first and last name are valid, we can use them for the welcome message
+        $welcomeMessage = "Welcome " . htmlspecialchars($_POST["firstname"]) . " " . htmlspecialchars($_POST["lastname"]) . "!";
+    }
+        
+13. making sure a value is numeric and doesn't include decimals:
+
+    if(is_numeric($quantity))
+    {   //make sure it contains no decimals
+        if((float)$quantity == (int)$quantity)
+        {   //it's a number, cast as integer
+            $quantity = (int)$quantity;
+            //make sure the number respects the rules of minimum and maximum quantities
+            if($quantity >= MIN_QUANTITY && $quantity <= MAX_QUANTITY)
+            {
+                //everything is good, nothing to do
+            }
+            else
+            {   //quantity too high or too low
+                $errorQuantity = "Please enter a numeric value between " . MIN_QUANTITY . " and " . MAX_QUANTITY;
+            }
+        }
+        else
+        {   //decimals
+            $errorQuantity = "Decimals not allowed";
+        }
+    }
+    else
+    {
+        //not a number
+        $errorQuantity = "Please enter a numeric value between " . MIN_QUANTITY . " and " . MAX_QUANTITY;
+    }
+
+14. to include decimals, omit "if((float)$quantity == (int)$quantity){...}":
+    if(is_numeric($quantity))
+    {   //make sure the number respects the rules of minimum and maximum quantities
+        if($quantity >= MIN_QUANTITY && $quantity <= MAX_QUANTITY)
+        {
+            //everything is good, nothing to do
+        }
+        else
+        {   //quantity too high or too low
+            $errorQuantity = "Please enter a numeric value between " . MIN_QUANTITY . " and " . MAX_QUANTITY;
+        }
+    }
+    else
+    {
+        //not a number
+        $errorQuantity = "Please enter a numeric value between " . MIN_QUANTITY . " and " . MAX_QUANTITY;
+    }
+
+15. calculate subtotal, tax, grand total, and display a message explaining those values:
+
+    $subtotal = (float)$price * (float)$quantity;
+    $taxAmount = calculateTax($subtotal, 0.161, $grandTotal);
+    $taxAmount = number_format($taxAmount, 2);
+    $totalMessage = "You bought instruments for $$subtotal. The tax amount is $" 
+    . calculateTax($subtotal, 0.161, $grandTotal) 
+    . " and the grand total is $$grandTotal <br>Thank you for shopping with MusicLife. We hope to see you again soon!";
+
+16. clear form when all required data has been entered correctly:
+
+    if($errorProductCode == "" && $errorFirstName == "" && $errorLastName == "" && $errorCity == "" && $errorComment == "" 
+    && $errorPrice == "" && $errorQuantity == "")
+    {
+
+        //clear all the fields
+        $productCode = "";  
+        $firstname = "";
+        $lastname = "";
+        $city = "";
+        $comment = "";
+        $price = "";
+        $quantity = "";
+    }
+
+17. Open/create a file, read information from user input, save into an array, encode array and save into file, close the file:
+
+    //open a file to write and get a file handle (use a constant)
+    $fileHandle = fopen(TEXTFILE_FOLDER_PATH . "orders.txt", "a") or exit("cannot open the file");
+
+    //write data into an array
+    $order = array(htmlspecialchars(trim($_POST["productcode"])), htmlspecialchars(trim($_POST["firstname"])), 
+    htmlspecialchars(trim($_POST["lastname"])), htmlspecialchars(trim($_POST["city"])), htmlspecialchars(trim($_POST["comment"])), 
+    htmlspecialchars(trim($_POST["price"])), htmlspecialchars(trim($_POST["quantity"])),  $subtotal, $taxAmount, $grandTotal);
+
+    //encode the array as a JSON string
+    $JSONorder = json_encode($order);
+
+    //write the array into the file
+    file_put_contents(TEXTFILE_FOLDER_PATH . "orders.txt", $JSONorder . "\r\n", FILE_APPEND) or exit("Cannot open file");
+
+    //save and close the file (and get rid of the file handle)
+    fclose($fileHandle);
+
+18. creating a form:
+
+<form action="buying.php" method="POST" class="form">
+    <p>Please fill in all the info and submit the form</p>
+
+    <!-- product code -->
+    <p>
+        <label class="required">Product code:</label><br>
+        <input type="text" name="productcode" value="<?php echo $productCode ?>"/>
+        <span class="red"><?php echo $errorProductCode; ?></span>
+    </p>
+
+    ***REPEAT FOR ALL INPUT FIELDS***
+
+    <!-- clear and submit buttons -->
+    <p>
+        <input type="reset" value="Clear the form" />
+        <input type="submit" name="connect" value="Submit information"/>
+    </p>
+
+</form>
+
+19. saving pictures into an array and displaying a different one randomly every time the page is loaded 
+    (all clickable and redirect to a different page):
+
+    //save the pictures into an array
+    $instruments = array("drums.jpg", "guitar.jpg", "piano.JPG", "sax.jpg", "violin.jpg");
+    
+    //shuffle the array
+    shuffle($instruments);
+    
+    //display one picture randomly, because we already shuffled the array?>
+    <a href="link.com" target="_blank"><img src="<?php echo PICTURES_FOLDER . $instruments[0] ?>"></a>
+
+20. changing picture class for one picture (plug this code into <img src="">)
+    
+    class='<?php 
+        if($instruments[0] == "drums.jpg")
+        {
+            echo "specialPicture";
+        } 
+        else
+        {
+            echo "smallPicture";
+        }
+    ?>'
+
+21. before starting to read a file, make sure that the code doesn't crash if the file does not exit or is not found 
+
+    if(file_exists(TEXTFILE_FOLDER_PATH . "orders.txt")){}
+
+22. create a table, rows and headers
+
+    echo "<table class='table'>"
+            . "<tr>"
+                    . "<th>Product ID</th>"
+                    ***REPEAT FOR ALL HEADERS***
+                    . "<th>Grand total</th>"
+            . "</tr>";
+    echo "</table><br>";
+
+23. loop into the file that the array is saved in and display the data
+
+    while(! feof($fileHandle))
+            {
+                $fileJSONLine = fgets($fileHandle);
+
+                //make sure the line is not the last empty line
+                if($fileJSONLine != "")
+                {
+                    $fileLineArray = json_decode($fileJSONLine);   
+
+                    echo "<tr>";
+                    echo "<td>" . $fileLineArray[0] . "</td>";
+                    echo "<td>" . $fileLineArray[1] . "</td>";
+                    
+                    //class "dollar" to display the dollar sign in the cell of the table instead of in the text file
+                    echo "<td class='dollar'>" . $fileLineArray[9] . "</td>";
+                    echo "</tr>";
+
+24. display a link to redirect to the cheat sheet
+
+    <a href="textFiles/cheatSheet.txt">View my PHP cheat sheet</a> 
